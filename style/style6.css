@@ -1,0 +1,182 @@
+body{
+background: #1a2a6c;  
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  
+background: linear-gradient(to right, #fdbb2d, #d49556, #ca8859); 
+    margin: 0;
+    padding: 0;
+    font-family: 'serif';
+}
+.titulo-egipto {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, rgb(110, 88, 47), rgb(22, 21, 15), rgb(66, 66, 28));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid gold;
+    display: inline-block;
+}
+
+#encabezado .menu{
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid;
+    font-size: 33px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    line-height: 2.5rem;
+    position: relative;
+}
+
+
+.menu ul{
+    position: absolute;
+}
+
+nav a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 57px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+    float: right;
+    font-size: 17px;
+}
+
+
+/*menu parte primer nivel*/
+.menu{
+ background: #cfb269;  
+ background: -webkit-linear-gradient(to right, #f8b500, #fceabb);/
+ background: -webkit-linear-gradient(to right, #f8b500, #fceabb); 
+
+}
+.menu >li{
+    float: left;
+}
+
+nav li li{
+    background: #fceabb;  
+background: -webkit-linear-gradient(to right, #7d7d7d, #fceabb);  
+background: linear-gradient(to right, #d0ba7b, #fceabb); 
+    max-height: 0;
+    overflow: hidden;
+    transition: all .1s;
+    width: 155px;
+}
+
+nav li:hover > ul > li{
+   max-height: 500px;
+   overflow: visible; 
+}
+
+.menu > li > ul{
+top:100%;
+}
+
+.menu ul ul{
+left:100%; 
+top: 0;
+}
+.rectangulo {
+  width: 730px;
+  height: 670px;
+  border: 3px solid rgb(0, 0, 0);  
+  position: absolute ; 
+  right: 0;                 
+  top: 67%;              
+  transform: translateY(-50%);
+  left: 55%;
+ background: #554214;  
+background: #C02425;  
+background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  
+background: linear-gradient(to right, #F0CB35, #ce6b6b); /
+
+}
+.cuadrado {
+  width: 900px;
+  height: 670px;
+  border: 2px solid black;  
+  position: absolute;
+  right: 0;                
+  top: 45%; 
+  left: 1%;                
+  transform: translateY(-20%);
+   background: #554214;  
+background: #C02425;  
+background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  
+background: linear-gradient(to right, #F0CB35, #ce6b6b);
+}
+
+.fantasy-title {
+  font-size: 3.2em;
+  text-align: center;
+  font-weight: bold;
+  color: transparent;
+  background: linear-gradient(to right, #f2f2f2, #ff9500, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 0 8px rgba(255, 140, 0, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.3),
+    2px 2px 6px #000;
+  animation: fantasyGlow 1.5s infinite alternate;
+}
+
+@keyframes fantasyGlow {
+  from {
+    text-shadow:
+      0 0 1px rgba(255, 140, 0, 0.7),
+      0 0 2px rgba(255, 255, 255, 0.4),
+      1px 2px 2px #000;
+  }
+  to {
+    text-shadow:
+      0 0 18px rgba(0, 0, 0, 0.8),
+      0 0 30px rgba(255, 140, 0, 0.7),
+      1px 2px 2px #000;
+  }
+}
+footer {
+            background-color: #f2f2f2;
+            color: rgb(0, 0, 0);
+            padding: 30px;
+            margin-top: 800px;
+        }
+main{
+    min-height: 76vh;
+}
+.texto-grande {
+  font-size: 24px; 
+}
+.resolicion {
+    width: 99%;
+    text-align: center;
+}
+@media (max-width:767px) {
+    .desktop {
+        display: none;
+    }
+    .table {
+        display: none;
+    }
+}
